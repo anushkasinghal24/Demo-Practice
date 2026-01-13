@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //package inheritance;
-=======
-
->>>>>>> 28abe777c88638ff55628f4c2e4d8eb9ab24dafb
 
 public class EmployeeManagementSystem {
 
