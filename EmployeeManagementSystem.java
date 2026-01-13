@@ -75,7 +75,8 @@ class Intern extends Employee {
         super(name, id, salary);
     }
 
-    void displayDetails() {
+    boolean displayDetails() {
         super.displayDetails();
+        return true;
     }
 }
