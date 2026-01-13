@@ -1,4 +1,4 @@
-package inheritance;
+
 
 public class EmployeeManagementSystem {
 	public static void main(String[] args) {
@@ -41,7 +41,7 @@ class Manager extends Employee{
 	}
 	void displayDetails() {
 		super.displayDetails();
-		System.out.println("Team Size :" + teamSize);
+		System.out.println("Team Size of the company:" + teamSize);
 		
 	}
 	
