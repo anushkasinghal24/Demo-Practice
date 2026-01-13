@@ -27,10 +27,11 @@ class Employee {
         this.salary = salary;
     }
 
-    void displayDetails() {
+    boolean displayDetails() {
         System.out.println("Name " + name);
         System.out.println("Id " + id);
         System.out.println("Salary " + salary);
+        return true;
 
     }
 }
@@ -44,9 +45,10 @@ class Manager extends Employee {
         this.teamSize = teamSize;
     }
 
-    void displayDetails() {
+    boolean displayDetails() {
         super.displayDetails();
         System.out.println("Team Size :" + teamSize);
+        return true;
 
     }
 
