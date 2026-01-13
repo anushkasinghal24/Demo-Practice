@@ -1,4 +1,4 @@
-package inheritance;
+
 
 public class EmployeeManagementSystem {
 
@@ -13,6 +13,19 @@ public class EmployeeManagementSystem {
         intern.displayDetails();
     }
 
+class Manager extends Employee{
+	int teamSize;
+
+	Manager(int teamSize,String name,int id,int salary ) {
+		super(name, id, salary);
+		this.teamSize = teamSize;
+	}
+	void displayDetails() {
+		super.displayDetails();
+		System.out.println("Team Size of the company:" + teamSize);
+		
+	}
+	
 }
 
 class Employee {
